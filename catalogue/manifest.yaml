@@ -35,12 +35,12 @@ spec:
         image: manigangisetty/catalogue:1.0
         resources:
           requests:
-            cpu: "100M"
+            cpu: "100m"
             memory: "128Mi"
         limits:
           requests:
-            cpu: "100M"
-            memory: "100Mi"
+            cpu: "200M"
+            memory: "256Mi"
         envFrom:
         - configMapRef:
             name: catalogue
