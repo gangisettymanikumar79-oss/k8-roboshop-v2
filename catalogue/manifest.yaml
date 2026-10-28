@@ -35,8 +35,8 @@ spec:
         image: manigangisetty/catalogue:1.0
         resources:
           requests:
-          cpu: "100m"
-          memory: "128Mi"
+          cpu: "200m"
+          memory: "256Mi"
         limits:
           cpu: "100m"
           memory: "128Mi"
