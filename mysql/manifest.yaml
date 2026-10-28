@@ -73,6 +73,9 @@ spec:
       - name: mysql
         image: manigangisetty/mysql:1.0
         args: ["--mysql-native-password=ON"]
+        envFrom:
+        - configMapRef:
+            name: mysql
         volumeMounts:
         - name: mysql
           mountPath:  /var/lib/mysql
