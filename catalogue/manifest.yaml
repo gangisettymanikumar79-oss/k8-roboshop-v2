@@ -39,8 +39,8 @@ spec:
             memory: "128mi"
         limits:
           requests:
-            cpu: "100m"
-            memory: "128mi"
+            cpu: "200m"
+            memory: "256Mi"
         envFrom:
         - configMapRef:
             name: catalogue
