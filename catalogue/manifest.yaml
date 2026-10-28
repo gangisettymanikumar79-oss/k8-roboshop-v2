@@ -39,8 +39,8 @@ spec:
             memory: "128Mi"
         limits:
           requests:
-            cpu: "200M"
-            memory: "256Mi"
+            cpu: "100m"
+            memory: "128Mi"
         envFrom:
         - configMapRef:
             name: catalogue
@@ -88,4 +88,3 @@ spec:
       target:
         type: Utilization
         averageUtilization: 50
-        
